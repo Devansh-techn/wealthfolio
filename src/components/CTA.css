@@ -1,0 +1,35 @@
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+.cta-box {
+  padding: 4rem;
+  width: 100%;
+  max-width: 1000px;
+  background: linear-gradient(180deg, rgba(20, 20, 20, 0.8) 0%, rgba(5, 5, 5, 0.9) 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.cta-btn {
+  font-size: 1.25rem;
+  padding: 1.25rem 3rem;
+  box-shadow: 0 0 30px rgba(0, 112, 243, 0.5);
+}
+
+.cta-btn:hover {
+  box-shadow: 0 0 40px rgba(0, 112, 243, 0.8);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.cta-link { display: inline-block; text-decoration: none; }
+@media (max-width: 600px) { .cta-box { padding: 2rem 1.25rem; } .cta-btn { font-size: 1.05rem; padding: 1rem 1.75rem; } .cta-section { padding: 4rem 0; } }

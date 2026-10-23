@@ -1,0 +1,42 @@
+.track-wealth-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6rem;
+}
+
+.mb-12 {
+  margin-bottom: 4rem;
+}
+
+.track-features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.track-card {
+  flex: 1 1 300px;
+  max-width: 400px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.icon-wrapper-lg {
+  width: 64px;
+  height: 64px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-purple { 
+  background: linear-gradient(135deg, #7B3FE4 0%, #4c1d95 100%); 
+  box-shadow: 0 4px 15px rgba(123, 63, 228, 0.4); 
+}

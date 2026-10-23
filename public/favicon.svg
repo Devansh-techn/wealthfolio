@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="WealthFolio">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0066FF"/>
+      <stop offset="1" stop-color="#7B3FE4"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#050508"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <path d="M14 20l8.5 24L32 26l9.5 18L50 20" fill="none" stroke="#fbbf24" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

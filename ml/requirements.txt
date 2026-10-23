@@ -1,0 +1,11 @@
+# Offline training / inference pipeline. NOT shipped to the browser or to Vercel.
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+scipy>=1.11
+joblib>=1.3
+requests>=2.31
+# Optional extra candidate model (used automatically if installed):
+# lightgbm>=4.0
+# Tests:
+pytest>=8.0

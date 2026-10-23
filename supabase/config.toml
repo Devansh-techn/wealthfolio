@@ -1,0 +1,44 @@
+# Supabase CLI config (local development + `supabase db push` / `functions deploy`).
+project_id = "wealthfolio"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 15
+
+[auth]
+enabled = true
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:5173/auth/callback", "http://localhost:5173/reset-password"]
+jwt_expiry = 3600
+enable_refresh_token_rotation = true
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = true   # email verification required before first sign-in
+secure_password_change = true
+max_frequency = "60s"
+
+# Google OAuth (optional). Set the secrets in your environment, then uncomment.
+# [auth.external.google]
+# enabled = true
+# client_id = "env(GOOGLE_CLIENT_ID)"
+# secret = "env(GOOGLE_CLIENT_SECRET)"
+
+[functions.market-data]
+verify_jwt = true
+[functions.screener-metrics]
+verify_jwt = true
+[functions.ml-predictions]
+verify_jwt = true
+[functions.explain-stock]
+verify_jwt = true
+[functions.delete-account]
+verify_jwt = true
