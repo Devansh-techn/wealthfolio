@@ -17,7 +17,7 @@ const Dashboard = lazy(() => import('./pages/Dashboard'));
 const Portfolio = lazy(() => import('./pages/Portfolio'));
 const Assets = lazy(() => import('./pages/Assets'));
 const Transactions = lazy(() => import('./pages/Transactions'));
-const Screener = lazy(() => import('./pages/Screener'));
+const ScreenerComingSoon = lazy(() => import('./pages/ScreenerComingSoon'));
 const Analytics = lazy(() => import('./pages/Analytics'));
 const Goals = lazy(() => import('./pages/Goals'));
 const Budget = lazy(() => import('./pages/Budget'));
@@ -63,7 +63,7 @@ export default function App() {
                       <Route path="/portfolio" element={<Portfolio />} />
                       <Route path="/assets" element={<Assets />} />
                       <Route path="/transactions" element={<Transactions />} />
-                      <Route path="/screener" element={<Screener />} />
+                      <Route path="/screener" element={<ScreenerComingSoon />} />
                       <Route path="/analytics" element={<Analytics />} />
                       <Route path="/goals" element={<Goals />} />
                       <Route path="/budget" element={<Budget />} />
