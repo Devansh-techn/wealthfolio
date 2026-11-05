@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar glass-panel" aria-label="Site">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo text-gradient">WealthFolio.</Link>
+        <Link to="/" className="navbar-logo text-gradient">WealthFolio</Link>
         <div className="navbar-actions">
           {user ? (
             <>

@@ -100,7 +100,7 @@ export default function AppLayout() {
     <div className="app-shell">
       <a href="#app-main" className="skip-link">Skip to content</a>
       <aside className="sidebar" aria-label="Primary">
-        <Link to="/" className="sidebar-logo">WealthFolio<span>.</span></Link>
+        <Link to="/" className="sidebar-logo">WealthFolio</Link>
         <nav className="sidebar-nav" aria-label="Main navigation">
           {groups()}
           <button type="button" className="nav-link logout" onClick={logout}><LogOut size={17} strokeWidth={1.6} aria-hidden="true" /><span>Sign out</span></button>
@@ -110,7 +110,7 @@ export default function AppLayout() {
       <div className="app-body">
         <header className="topbar">
           <button type="button" className="icon-btn menu-btn" aria-label="Open menu" aria-expanded={drawer} onClick={() => setDrawer(true)}><Menu size={21} strokeWidth={1.6} /></button>
-          <Link to="/" className="topbar-logo">WealthFolio<span>.</span></Link>
+          <Link to="/" className="topbar-logo">WealthFolio</Link>
           <div className="topbar-title">
             <span className="topbar-page">{pageTitle(location.pathname)}</span>
             <span className="topbar-date">{today}</span>
@@ -130,7 +130,7 @@ export default function AppLayout() {
           <div className="drawer-backdrop" onMouseDown={(e) => e.target === e.currentTarget && setDrawer(false)}>
             <aside className="drawer" aria-label="Menu">
               <div className="drawer-head">
-                <span className="sidebar-logo">WealthFolio<span>.</span></span>
+                <span className="sidebar-logo">WealthFolio</span>
                 <button type="button" className="icon-btn" aria-label="Close menu" onClick={() => setDrawer(false)}><X size={21} strokeWidth={1.6} /></button>
               </div>
               <nav aria-label="Main navigation">

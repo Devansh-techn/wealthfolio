@@ -36,7 +36,7 @@ export default function Legal({ page }) {
   return (
     <main className="auth-page legal-page" id="main">
       <article className="legal glass-panel">
-        <Link to="/" className="auth-logo text-gradient">WealthFolio.</Link>
+        <Link to="/" className="auth-logo text-gradient">WealthFolio</Link>
         <h1 className="auth-title">{p.title}</h1>
         {p.body.map((t) => <p key={t} className="text-body">{t}</p>)}
         <Link to="/" className="link-sm">← Back to home</Link>

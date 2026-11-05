@@ -16,7 +16,7 @@ function AuthShell({ title, subtitle, children, footer }) {
       <div className="auth-card glass-panel">
         <Link to="/" className="auth-brand" aria-label="WealthFolio home">
           <img src="/favicon.svg" alt="" width="34" height="34" />
-          <span className="auth-logo text-gradient">WealthFolio.</span>
+          <span className="auth-logo text-gradient">WealthFolio</span>
         </Link>
         <h1 className="auth-title">{title}</h1>
         {subtitle && <p className="text-body auth-sub">{subtitle}</p>}

@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="footer-section">
     <div className="container footer-content">
       <div className="footer-brand">
-        <h3 className="heading-md">WealthFolio.</h3>
+        <h3 className="heading-md">WealthFolio</h3>
         <p className="text-body text-sm mt-4 text-muted">A private, intelligent home for your wealth.</p>
       </div>
       <nav className="footer-links" aria-label="Footer">
